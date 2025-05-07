@@ -29,12 +29,9 @@ const modelOptions = modelSelector.querySelector(".selector-options")
 let modelSourceValue = localStorage.getItem("selectedModel") || "llama-3.1-8b-instant"
 const modelDisplayNames = {
   "llama-3.1-8b-instant": "Llama 3.1 8B Instant",
-  "llama-3.3-70b-specdec": "Llama 3.3 70B SpecDec",
   "llama-3.3-70b-versatile": "Llama 3.3 70B Versatile",
-  "qwen-2.5-32b": "Qwen 2.5 32b",
   "deepseek-r1-distill-llama-70b": "Deepseek R1 Distill Llama 70B",
-  "gemma2-9b-it": "Gemma2 9B IT",
-  "mixtral-8x7b-32768": "Mixtral 8x7B 32768"
+  "gemma2-9b-it": "Gemma2 9B IT"
 }
 
 typeWriterElement(modelSelected, modelDisplayNames[modelSourceValue], 20)
