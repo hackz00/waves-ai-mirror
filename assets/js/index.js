@@ -1,8 +1,7 @@
 const apiKeys = [
-  "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",
-  "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",
-  "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",
-  "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"
+  "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"
+  //You can add your own API keys here!
+ //Im only using one due to my other API keys getting revoked.
 ]
 let apiKeyIndex = parseInt(localStorage.getItem("apiKeyIndex") || "-1", 10)
 function getNextApiKey() {
